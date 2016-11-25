@@ -31,7 +31,7 @@ var User = Backbone.Model.extend({
 
     $.ajax(loginUrl).then(function(response){
       localStorage.setItem('token', response.sessionToken);
-      Backbone.history.navigate('user/create', {trigger: true});
+      Backbone.history.navigate('messageboard/', {trigger: true});
     });
   }
 });

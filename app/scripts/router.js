@@ -4,11 +4,12 @@ var ReactDOM = require('react-dom');
 
 var setUpParse = require('./parseUtilities').setUpParse;
 var LoginContainer = require('./components/login.jsx').LoginContainer;
+var MessageboardContainer = require('./components/messageboard.jsx').MessageboardContainer;
 
 var AppRouter = Backbone.Router.extend({
   routes: {
     '': 'login',
-    'messages/': 'messageboard'
+    'messageboard/': 'messageboard'
   },
 
   initialize: function(){
