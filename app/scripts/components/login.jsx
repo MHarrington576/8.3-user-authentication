@@ -133,7 +133,7 @@ var LoginContainer = React.createClass({
       </div>
     </div>
 
-  );
+    );
   }
 });
 
