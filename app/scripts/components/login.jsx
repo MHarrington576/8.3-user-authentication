@@ -48,7 +48,7 @@ var SignUpForm = React.createClass({
         <input className="btn btn-primary" type="submit" value="Sign Up" />
       </form>
 
-    )
+    );
   }
 });
 
@@ -95,7 +95,7 @@ var LoginForm = React.createClass({
         <input className="btn btn-success" type="submit" value="Log In" />
       </form>
 
-    )
+    );
   }
 });
 
@@ -133,7 +133,7 @@ var LoginContainer = React.createClass({
       </div>
     </div>
 
-    )
+  );
   }
 });
 
